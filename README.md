@@ -47,3 +47,17 @@ An offline, zero-knowledge password manager for Windows. Your vault stays on you
 **Download:** [latest release](../../releases/latest) · **Requires:** Windows 10 (2004+) or Windows 11
 
 **License:** free to download and use. Not open source — the source code is not published; all rights reserved. The automatic "Source code" archives on each release contain only this README.
+
+---
+
+<div dir="rtl">
+
+## ⚠️ إخلاء المسؤولية
+
+- **نسيان كلمة المرور الرئيسية:** لا توجد أي طريقة لاسترجاعها، ولا لفتح الخزنة بدونها — لا عندنا ولا عند أي أحد. إذا نسيتها ضاعت بياناتك، **ونحن غير مسؤولين عن ذلك إطلاقًا**.
+- **حذف كلمات المرور أو ضياعها:** **نحن غير مسؤولين تمامًا** عن ضياع كلمات مرورك أو حذفها لأي سبب: حذف ملف الخزنة، أو عطل الجهاز، أو إعادة تثبيت ويندوز، أو فيروس. احتفظ بنسخة احتياطية مشفّرة (الإعدادات ← تصدير).
+- باستخدامك البرنامج فأنت توافق على ما سبق.
+
+</div>
+
+**Disclaimer:** There is no way to recover a forgotten master password or to open the vault without it. If you forget it, your data is lost, and we are not responsible. We are also not responsible for lost or deleted passwords for any reason (deleted vault file, device failure, reinstalling Windows, malware). Keep an encrypted backup (Settings → Export). By using the program you accept these terms.
