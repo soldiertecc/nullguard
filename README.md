@@ -16,13 +16,19 @@
 
 ## التحميل والتثبيت
 
-1. من صفحة [**Releases**](../../releases/latest) حمّل الملف `NullGuard_1.0.0_x64-setup.exe`.
+1. من صفحة [**Releases**](../../releases/latest) حمّل ملف التثبيت الذي ينتهي بـ `_x64-setup.exe` (أحدث إصدار دائمًا في الأعلى).
 2. انقر عليه نقرتين. إن ظهر تحذير SmartScreen: **More info** ← **Run anyway** (البرنامج غير موقّع بشهادة مدفوعة).
 3. اضغط **Install**، وسيظهر البرنامج في قائمة ابدأ.
 
 **المتطلبات:** ويندوز ١٠ (إصدار 2004 أو أحدث) أو ويندوز ١١.
 
 > الخزنة لا تنتقل مع ملف التثبيت. لنقل حساباتك إلى جهاز آخر: الإعدادات ← تصدير، ثم استيراد على الجهاز الجديد.
+
+## الحقوق
+
+البرنامج **مجاني للتحميل والاستخدام الشخصي**، لكنه **ليس مفتوح المصدر**: الكود المصدري غير منشور، وجميع الحقوق محفوظة للمطوّر.
+
+> روابط **Source code** التي يضيفها GitHub تلقائيًا تحت كل إصدار لا تحتوي إلا هذا الملف — لا كود فيها.
 
 </div>
 
@@ -39,3 +45,5 @@ An offline, zero-knowledge password manager for Windows. Your vault stays on you
 - Arabic and English UI, light and dark themes
 
 **Download:** [latest release](../../releases/latest) · **Requires:** Windows 10 (2004+) or Windows 11
+
+**License:** free to download and use. Not open source — the source code is not published; all rights reserved. The automatic "Source code" archives on each release contain only this README.
