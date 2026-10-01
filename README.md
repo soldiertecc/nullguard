@@ -1,5 +1,7 @@
 <div dir="rtl">
 
+<p align="center"><img src="assets/null-guard-wordmark.png" width="440" alt="Null Guard"></p>
+
 # Null Guard
 
 **مدير كلمات مرور لويندوز يعمل على جهازك فقط — لا يتصل بالإنترنت إطلاقًا.**
@@ -24,7 +26,7 @@
 
 ## ⚠️ تنبيه مهم: قبل تحديث البرنامج أو نقله — حافظ على كلمات مرورك
 
-خزنتك محفوظة **على جهازك فقط**، في مجلد منفصل عن البرنامج (`%LOCALAPPDATA%NullGuard`). اتبع هذه الخطوات حتى لا تضيع كلمات مرورك:
+خزنتك محفوظة **على جهازك فقط**، في مجلد منفصل عن البرنامج (`%LOCALAPPDATA%\NullGuard`). اتبع هذه الخطوات حتى لا تضيع كلمات مرورك:
 
 ### عند التحديث إلى إصدار أحدث
 
@@ -33,7 +35,7 @@
 3. افتح البرنامج بكلمة المرور الرئيسية نفسها، وتأكد أن حساباتك كلها موجودة.
 
 - التحديث لا يلمس الخزنة، وإلغاء التثبيت لا يحذفها (حتى لو اخترت حذف بيانات التطبيق).
-- **لا تحذف المجلد `%LOCALAPPDATA%NullGuard` أبدًا** — فيه خزنتك (مشفّرة) ونسخها الاحتياطية.
+- **لا تحذف المجلد `%LOCALAPPDATA%\NullGuard` أبدًا** — فيه خزنتك (مشفّرة) ونسخها الاحتياطية.
 
 ### عند الانتقال إلى جهاز جديد، أو إعادة تثبيت ويندوز، أو فرمتة الجهاز
 
@@ -45,7 +47,7 @@
 
 ### إن كان البرنامج على فلاشة (الوضع المحمول)
 
-خزنتك في المجلد `NullGuard-data` بجوار البرنامج على الفلاشة. للتحديث: ثبّت الإصدار الجديد على الكمبيوتر، ثم انسخ `nullguard.exe` من `%LOCALAPPDATA%Null Guard` إلى الفلاشة **فوق** `NullGuard.exe` القديم. **لا تحذف `NullGuard-data` ولا `NullGuard-portable.txt`.**
+خزنتك في المجلد `NullGuard-data` بجوار البرنامج على الفلاشة. للتحديث: ثبّت الإصدار الجديد على الكمبيوتر، ثم انسخ `nullguard.exe` من `%LOCALAPPDATA%\Null Guard` إلى الفلاشة **فوق** `NullGuard.exe` القديم. **لا تحذف `NullGuard-data` ولا `NullGuard-portable.txt`.**
 
 ## الحقوق
 
@@ -69,7 +71,7 @@ An offline, zero-knowledge password manager for Windows. Your vault stays on you
 
 **Download:** [latest release](../../releases/latest) · **Requires:** Windows 10 (2004+) or Windows 11
 
-**⚠️ Before updating or moving — keep your passwords:** export an encrypted copy first (Settings → Data → Export an encrypted copy) and keep it on a USB drive. Install the new version *over* the old one; your vault lives in `%LOCALAPPDATA%NullGuard`, which updates and uninstalls never touch — never delete that folder. Reinstalling Windows or formatting erases it: on the new system, create a vault and use *Import a copy*. Windows Hello must be set up again on a new device. Portable (USB) mode: copy the new `nullguard.exe` over `NullGuard.exe` on the drive and keep `NullGuard-data` and `NullGuard-portable.txt`.
+**⚠️ Before updating or moving — keep your passwords:** export an encrypted copy first (Settings → Data → Export an encrypted copy) and keep it on a USB drive. Install the new version *over* the old one; your vault lives in `%LOCALAPPDATA%\NullGuard`, which updates and uninstalls never touch — never delete that folder. Reinstalling Windows or formatting erases it: on the new system, create a vault and use *Import a copy*. Windows Hello must be set up again on a new device. Portable (USB) mode: copy the new `nullguard.exe` over `NullGuard.exe` on the drive and keep `NullGuard-data` and `NullGuard-portable.txt`.
 
 **License:** free to download and use. Not open source — the source code is not published; all rights reserved. The automatic "Source code" archives on each release contain only this README.
 
